@@ -1,0 +1,20 @@
+/* src/styles/theme.css */
+:root {
+  --primary: #2e7d32;
+  --secondary: #81c784;
+  --accent: #aed581;
+  --danger: #e53935;
+  --light: #f1f8e9;
+  --dark: #1b5e20;
+  --text-dark: #333;
+  --text-light: #fff;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--light);
+  margin: 0;
+  padding: 0;
+  color: var(--text-dark);
+}

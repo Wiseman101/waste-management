@@ -1,0 +1,33 @@
+/* src/styles/list.css */
+.list-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f1fff1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+}
+
+.list-container h2 {
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  background: #ffffff;
+  border-left: 6px solid #4caf50;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.item h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2e7d32;
+}

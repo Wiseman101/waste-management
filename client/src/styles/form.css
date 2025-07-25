@@ -1,0 +1,50 @@
+/* src/styles/form.css */
+.form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #e6f5e6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(34, 139, 34, 0.2);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #2e7d32;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+select {
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.8rem;
+  background-color: #43a047;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}

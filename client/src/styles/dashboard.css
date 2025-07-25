@@ -1,0 +1,96 @@
+/* styles/dashboard.css */
+
+.dashboard-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f4fff4;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4caf50;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.logout-button {
+  background: white;
+  color: #4caf50;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.logout-button:hover {
+  background: #3e8e41;
+  color: white;
+  border-color: #3e8e41;
+}
+
+.dashboard-card {
+  background: white;
+  border-left: 5px solid #4caf50;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+}
+
+.dashboard-card h3 {
+  margin-bottom: 0.75rem;
+  color: #388e3c;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 6px;
+  background-color: #e8f5e9;
+  border-left: 4px solid #66bb6a;
+}
+
+.item h4 {
+  margin: 0 0 0.25rem;
+  color: #2e7d32;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.action-btn {
+  background: #66bb6a;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #4caf50;
+}
+
+.loading, .empty {
+  font-style: italic;
+  color: #888;
+}
