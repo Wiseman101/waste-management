@@ -21,6 +21,10 @@ A full-stack MERN application built to help users manage waste collections and r
 - 📱 Responsive Design
 - 🌐 Deployed on Render & Vercel
 
+##  🚀 The Pitch deck
+
+Here is my pitch deck link created using gamma app with all the details of my project.
+- ** https://gamma.app/docs/Cover-Slide-rvz1f9jmz1spery
 ---
 
 ## 🛠 Tech Stack
